@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RYG-WP-SOW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Hotel Navigation Controller-->
+        <scene sceneID="dCr-UG-62c">
+            <objects>
+                <navigationController id="RYG-WP-SOW" customClass="iHotelNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qcm-2B-ETo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fHT-Sr-PqE" kind="relationship" relationship="rootViewController" id="DmD-GS-D1u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Dr-4E-l37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.466666666666665" y="385.29333333333335"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AzR-yi-dxS">
+            <objects>
+                <viewController id="fHT-Sr-PqE" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QV2-cy-wDe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ng0-5r-oGh">
+                                <rect key="frame" x="126" y="276" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="点击按钮"/>
+                                <connections>
+                                    <action selector="buttonTap:" destination="fHT-Sr-PqE" eventType="touchUpInside" id="cX3-QU-9T7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DgM-cU-UPc"/>
+                    <connections>
+                        <outlet property="button" destination="Ng0-5r-oGh" id="1de-y0-Dia"/>
+                        <segue destination="U69-dN-F9g" kind="push" identifier="showB" id="9IS-ls-uF7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DTf-oI-9ky" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313.06666666666666" y="390.9733333333333"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OXY-EM-xVN">
+            <objects>
+                <viewController id="U69-dN-F9g" customClass="BViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e0b-No-SYu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7U1-RS-9ok"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SlL-yA-qWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313.06666666666666" y="1135.0533333333333"/>
+        </scene>
+    </scenes>
+</document>

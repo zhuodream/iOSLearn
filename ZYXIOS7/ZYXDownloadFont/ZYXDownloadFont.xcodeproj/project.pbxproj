@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DDD3BC1C30D48900C25698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD3BB1C30D48900C25698 /* main.m */; };
+		36DDD3BF1C30D48900C25698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD3BE1C30D48900C25698 /* AppDelegate.m */; };
+		36DDD3C21C30D48900C25698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD3C11C30D48900C25698 /* ViewController.m */; };
+		36DDD3C51C30D48900C25698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DDD3C31C30D48900C25698 /* Main.storyboard */; };
+		36DDD3C71C30D48900C25698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DDD3C61C30D48900C25698 /* Assets.xcassets */; };
+		36DDD3CA1C30D48900C25698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DDD3C81C30D48900C25698 /* LaunchScreen.storyboard */; };
+		36DDD3D51C30D48900C25698 /* ZYXDownloadFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD3D41C30D48900C25698 /* ZYXDownloadFontTests.m */; };
+		36DDD3E01C30D48900C25698 /* ZYXDownloadFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD3DF1C30D48900C25698 /* ZYXDownloadFontUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36DDD3D11C30D48900C25698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DDD3AF1C30D48900C25698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DDD3B61C30D48900C25698;
+			remoteInfo = ZYXDownloadFont;
+		};
+		36DDD3DC1C30D48900C25698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DDD3AF1C30D48900C25698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DDD3B61C30D48900C25698;
+			remoteInfo = ZYXDownloadFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DDD3B71C30D48900C25698 /* ZYXDownloadFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYXDownloadFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DDD3BB1C30D48900C25698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36DDD3BD1C30D48900C25698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36DDD3BE1C30D48900C25698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36DDD3C01C30D48900C25698 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36DDD3C11C30D48900C25698 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36DDD3C41C30D48900C25698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36DDD3C61C30D48900C25698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36DDD3C91C30D48900C25698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36DDD3CB1C30D48900C25698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DDD3D01C30D48900C25698 /* ZYXDownloadFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYXDownloadFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DDD3D41C30D48900C25698 /* ZYXDownloadFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYXDownloadFontTests.m; sourceTree = "<group>"; };
+		36DDD3D61C30D48900C25698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DDD3DB1C30D48900C25698 /* ZYXDownloadFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYXDownloadFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DDD3DF1C30D48900C25698 /* ZYXDownloadFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYXDownloadFontUITests.m; sourceTree = "<group>"; };
+		36DDD3E11C30D48900C25698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DDD3B41C30D48900C25698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3CD1C30D48900C25698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3D81C30D48900C25698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36DDD3AE1C30D48900C25698 = {
+			isa = PBXGroup;
+			children = (
+				36DDD3B91C30D48900C25698 /* ZYXDownloadFont */,
+				36DDD3D31C30D48900C25698 /* ZYXDownloadFontTests */,
+				36DDD3DE1C30D48900C25698 /* ZYXDownloadFontUITests */,
+				36DDD3B81C30D48900C25698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36DDD3B81C30D48900C25698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DDD3B71C30D48900C25698 /* ZYXDownloadFont.app */,
+				36DDD3D01C30D48900C25698 /* ZYXDownloadFontTests.xctest */,
+				36DDD3DB1C30D48900C25698 /* ZYXDownloadFontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DDD3B91C30D48900C25698 /* ZYXDownloadFont */ = {
+			isa = PBXGroup;
+			children = (
+				36DDD3BD1C30D48900C25698 /* AppDelegate.h */,
+				36DDD3BE1C30D48900C25698 /* AppDelegate.m */,
+				36DDD3C01C30D48900C25698 /* ViewController.h */,
+				36DDD3C11C30D48900C25698 /* ViewController.m */,
+				36DDD3C31C30D48900C25698 /* Main.storyboard */,
+				36DDD3C61C30D48900C25698 /* Assets.xcassets */,
+				36DDD3C81C30D48900C25698 /* LaunchScreen.storyboard */,
+				36DDD3CB1C30D48900C25698 /* Info.plist */,
+				36DDD3BA1C30D48900C25698 /* Supporting Files */,
+			);
+			path = ZYXDownloadFont;
+			sourceTree = "<group>";
+		};
+		36DDD3BA1C30D48900C25698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36DDD3BB1C30D48900C25698 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36DDD3D31C30D48900C25698 /* ZYXDownloadFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				36DDD3D41C30D48900C25698 /* ZYXDownloadFontTests.m */,
+				36DDD3D61C30D48900C25698 /* Info.plist */,
+			);
+			path = ZYXDownloadFontTests;
+			sourceTree = "<group>";
+		};
+		36DDD3DE1C30D48900C25698 /* ZYXDownloadFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36DDD3DF1C30D48900C25698 /* ZYXDownloadFontUITests.m */,
+				36DDD3E11C30D48900C25698 /* Info.plist */,
+			);
+			path = ZYXDownloadFontUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36DDD3B61C30D48900C25698 /* ZYXDownloadFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DDD3E41C30D48900C25698 /* Build configuration list for PBXNativeTarget "ZYXDownloadFont" */;
+			buildPhases = (
+				36DDD3B31C30D48900C25698 /* Sources */,
+				36DDD3B41C30D48900C25698 /* Frameworks */,
+				36DDD3B51C30D48900C25698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXDownloadFont;
+			productName = ZYXDownloadFont;
+			productReference = 36DDD3B71C30D48900C25698 /* ZYXDownloadFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36DDD3CF1C30D48900C25698 /* ZYXDownloadFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DDD3E71C30D48900C25698 /* Build configuration list for PBXNativeTarget "ZYXDownloadFontTests" */;
+			buildPhases = (
+				36DDD3CC1C30D48900C25698 /* Sources */,
+				36DDD3CD1C30D48900C25698 /* Frameworks */,
+				36DDD3CE1C30D48900C25698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DDD3D21C30D48900C25698 /* PBXTargetDependency */,
+			);
+			name = ZYXDownloadFontTests;
+			productName = ZYXDownloadFontTests;
+			productReference = 36DDD3D01C30D48900C25698 /* ZYXDownloadFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36DDD3DA1C30D48900C25698 /* ZYXDownloadFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DDD3EA1C30D48900C25698 /* Build configuration list for PBXNativeTarget "ZYXDownloadFontUITests" */;
+			buildPhases = (
+				36DDD3D71C30D48900C25698 /* Sources */,
+				36DDD3D81C30D48900C25698 /* Frameworks */,
+				36DDD3D91C30D48900C25698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DDD3DD1C30D48900C25698 /* PBXTargetDependency */,
+			);
+			name = ZYXDownloadFontUITests;
+			productName = ZYXDownloadFontUITests;
+			productReference = 36DDD3DB1C30D48900C25698 /* ZYXDownloadFontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DDD3AF1C30D48900C25698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhuo;
+				TargetAttributes = {
+					36DDD3B61C30D48900C25698 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					36DDD3CF1C30D48900C25698 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 36DDD3B61C30D48900C25698;
+					};
+					36DDD3DA1C30D48900C25698 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 36DDD3B61C30D48900C25698;
+					};
+				};
+			};
+			buildConfigurationList = 36DDD3B21C30D48900C25698 /* Build configuration list for PBXProject "ZYXDownloadFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36DDD3AE1C30D48900C25698;
+			productRefGroup = 36DDD3B81C30D48900C25698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DDD3B61C30D48900C25698 /* ZYXDownloadFont */,
+				36DDD3CF1C30D48900C25698 /* ZYXDownloadFontTests */,
+				36DDD3DA1C30D48900C25698 /* ZYXDownloadFontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36DDD3B51C30D48900C25698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDD3CA1C30D48900C25698 /* LaunchScreen.storyboard in Resources */,
+				36DDD3C71C30D48900C25698 /* Assets.xcassets in Resources */,
+				36DDD3C51C30D48900C25698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3CE1C30D48900C25698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3D91C30D48900C25698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DDD3B31C30D48900C25698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDD3C21C30D48900C25698 /* ViewController.m in Sources */,
+				36DDD3BF1C30D48900C25698 /* AppDelegate.m in Sources */,
+				36DDD3BC1C30D48900C25698 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3CC1C30D48900C25698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDD3D51C30D48900C25698 /* ZYXDownloadFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3D71C30D48900C25698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDD3E01C30D48900C25698 /* ZYXDownloadFontUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36DDD3D21C30D48900C25698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DDD3B61C30D48900C25698 /* ZYXDownloadFont */;
+			targetProxy = 36DDD3D11C30D48900C25698 /* PBXContainerItemProxy */;
+		};
+		36DDD3DD1C30D48900C25698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DDD3B61C30D48900C25698 /* ZYXDownloadFont */;
+			targetProxy = 36DDD3DC1C30D48900C25698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36DDD3C31C30D48900C25698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DDD3C41C30D48900C25698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36DDD3C81C30D48900C25698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DDD3C91C30D48900C25698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36DDD3E21C30D48900C25698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36DDD3E31C30D48900C25698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36DDD3E51C30D48900C25698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYXDownloadFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXDownloadFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36DDD3E61C30D48900C25698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYXDownloadFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXDownloadFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36DDD3E81C30D48900C25698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYXDownloadFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXDownloadFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYXDownloadFont.app/ZYXDownloadFont";
+			};
+			name = Debug;
+		};
+		36DDD3E91C30D48900C25698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYXDownloadFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXDownloadFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYXDownloadFont.app/ZYXDownloadFont";
+			};
+			name = Release;
+		};
+		36DDD3EB1C30D48900C25698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYXDownloadFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXDownloadFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYXDownloadFont;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36DDD3EC1C30D48900C25698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYXDownloadFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXDownloadFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYXDownloadFont;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36DDD3B21C30D48900C25698 /* Build configuration list for PBXProject "ZYXDownloadFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DDD3E21C30D48900C25698 /* Debug */,
+				36DDD3E31C30D48900C25698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DDD3E41C30D48900C25698 /* Build configuration list for PBXNativeTarget "ZYXDownloadFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DDD3E51C30D48900C25698 /* Debug */,
+				36DDD3E61C30D48900C25698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36DDD3E71C30D48900C25698 /* Build configuration list for PBXNativeTarget "ZYXDownloadFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DDD3E81C30D48900C25698 /* Debug */,
+				36DDD3E91C30D48900C25698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36DDD3EA1C30D48900C25698 /* Build configuration list for PBXNativeTarget "ZYXDownloadFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DDD3EB1C30D48900C25698 /* Debug */,
+				36DDD3EC1C30D48900C25698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36DDD3AF1C30D48900C25698 /* Project object */;
+}

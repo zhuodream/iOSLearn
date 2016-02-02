@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSB-zK-2Yt">
+                                <rect key="frame" x="270" y="120" width="61" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="process"/>
+                                <connections>
+                                    <action selector="runProgress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZc-Lv-w7y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Queue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wG-9p-8N8">
+                                <rect key="frame" x="212" y="215" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Iw-3J-k7Y">
+                                <rect key="frame" x="351" y="215" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LCi-qB-P90">
+                                <rect key="frame" x="212" y="270" width="150" height="2"/>
+                            </progressView>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qxu-kl-Zuk">
+                                <rect key="frame" x="212" y="304" width="150" height="2"/>
+                            </progressView>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Un9-4y-ED0">
+                                <rect key="frame" x="212" y="335" width="150" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3wG-9p-8N8" firstAttribute="top" secondItem="HSB-zK-2Yt" secondAttribute="bottom" constant="62" id="7uu-Mp-njc"/>
+                            <constraint firstItem="HSB-zK-2Yt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="7ym-C9-oWn"/>
+                            <constraint firstItem="LCi-qB-P90" firstAttribute="top" secondItem="3wG-9p-8N8" secondAttribute="bottom" constant="34" id="CBJ-Ip-x2Z"/>
+                            <constraint firstItem="Qxu-kl-Zuk" firstAttribute="width" secondItem="LCi-qB-P90" secondAttribute="width" id="EGK-R3-sec"/>
+                            <constraint firstItem="Qxu-kl-Zuk" firstAttribute="leading" secondItem="LCi-qB-P90" secondAttribute="leading" id="Prk-75-hUs"/>
+                            <constraint firstItem="Un9-4y-ED0" firstAttribute="leading" secondItem="Qxu-kl-Zuk" secondAttribute="leading" id="SEb-4p-TkQ"/>
+                            <constraint firstItem="Qxu-kl-Zuk" firstAttribute="top" secondItem="LCi-qB-P90" secondAttribute="bottom" constant="32" id="aGm-W4-mKw"/>
+                            <constraint firstItem="Un9-4y-ED0" firstAttribute="width" secondItem="Qxu-kl-Zuk" secondAttribute="width" id="aRb-AZ-R3E"/>
+                            <constraint firstItem="Qxu-kl-Zuk" firstAttribute="height" secondItem="LCi-qB-P90" secondAttribute="height" id="evP-mz-389"/>
+                            <constraint firstItem="9Iw-3J-k7Y" firstAttribute="centerY" secondItem="3wG-9p-8N8" secondAttribute="centerY" id="fPB-K2-zQ8"/>
+                            <constraint firstItem="HSB-zK-2Yt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fiq-oC-vp0"/>
+                            <constraint firstItem="Un9-4y-ED0" firstAttribute="height" secondItem="Qxu-kl-Zuk" secondAttribute="height" id="gX0-kE-11l"/>
+                            <constraint firstItem="LCi-qB-P90" firstAttribute="trailing" secondItem="9Iw-3J-k7Y" secondAttribute="trailing" id="hN1-V3-i0f"/>
+                            <constraint firstItem="Un9-4y-ED0" firstAttribute="top" secondItem="Qxu-kl-Zuk" secondAttribute="bottom" constant="29" id="suo-IH-Vre"/>
+                            <constraint firstItem="9Iw-3J-k7Y" firstAttribute="leading" secondItem="3wG-9p-8N8" secondAttribute="trailing" constant="65" id="tla-jg-qi6"/>
+                            <constraint firstItem="LCi-qB-P90" firstAttribute="leading" secondItem="3wG-9p-8N8" secondAttribute="leading" id="wXX-GF-Kbz"/>
+                            <constraint firstItem="3wG-9p-8N8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-51" id="zvV-WN-rLK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="queueLabel" destination="9Iw-3J-k7Y" id="r6t-xF-jZc"/>
+                        <outletCollection property="progressviews" destination="LCi-qB-P90" id="If3-hR-831"/>
+                        <outletCollection property="progressviews" destination="Qxu-kl-Zuk" id="djX-3A-ggW"/>
+                        <outletCollection property="progressviews" destination="Un9-4y-ED0" id="aZs-or-fLw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="393"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36B8D7671BCF7BE80005163D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8D7661BCF7BE80005163D /* main.m */; };
+		36B8D76A1BCF7BE80005163D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8D7691BCF7BE80005163D /* AppDelegate.m */; };
+		36B8D76D1BCF7BE80005163D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8D76C1BCF7BE80005163D /* ViewController.m */; };
+		36B8D7701BCF7BE80005163D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B8D76E1BCF7BE80005163D /* Main.storyboard */; };
+		36B8D7721BCF7BE80005163D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B8D7711BCF7BE80005163D /* Assets.xcassets */; };
+		36B8D7751BCF7BE80005163D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B8D7731BCF7BE80005163D /* LaunchScreen.storyboard */; };
+		36B8D7801BCF7BE80005163D /* ZYXFlowersTransformViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8D77F1BCF7BE80005163D /* ZYXFlowersTransformViewTests.m */; };
+		36B8D78B1BCF7BE80005163D /* ZYXFlowersTransformViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8D78A1BCF7BE80005163D /* ZYXFlowersTransformViewUITests.m */; };
+		36B8D79A1BCF7C700005163D /* FlowerTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8D7991BCF7C700005163D /* FlowerTransformView.m */; settings = {ASSET_TAGS = (); }; };
+		36B8D79C1BCF7CEA0005163D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8D79B1BCF7CEA0005163D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36B8D77C1BCF7BE80005163D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B8D75A1BCF7BE80005163D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B8D7611BCF7BE80005163D;
+			remoteInfo = ZYXFlowersTransformView;
+		};
+		36B8D7871BCF7BE80005163D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B8D75A1BCF7BE80005163D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B8D7611BCF7BE80005163D;
+			remoteInfo = ZYXFlowersTransformView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36B8D7621BCF7BE80005163D /* ZYXFlowersTransformView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYXFlowersTransformView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B8D7661BCF7BE80005163D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36B8D7681BCF7BE80005163D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36B8D7691BCF7BE80005163D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36B8D76B1BCF7BE80005163D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36B8D76C1BCF7BE80005163D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36B8D76F1BCF7BE80005163D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36B8D7711BCF7BE80005163D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36B8D7741BCF7BE80005163D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36B8D7761BCF7BE80005163D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B8D77B1BCF7BE80005163D /* ZYXFlowersTransformViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYXFlowersTransformViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B8D77F1BCF7BE80005163D /* ZYXFlowersTransformViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYXFlowersTransformViewTests.m; sourceTree = "<group>"; };
+		36B8D7811BCF7BE80005163D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B8D7861BCF7BE80005163D /* ZYXFlowersTransformViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYXFlowersTransformViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B8D78A1BCF7BE80005163D /* ZYXFlowersTransformViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYXFlowersTransformViewUITests.m; sourceTree = "<group>"; };
+		36B8D78C1BCF7BE80005163D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B8D7981BCF7C700005163D /* FlowerTransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerTransformView.h; sourceTree = "<group>"; };
+		36B8D7991BCF7C700005163D /* FlowerTransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerTransformView.m; sourceTree = "<group>"; };
+		36B8D79B1BCF7CEA0005163D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36B8D75F1BCF7BE80005163D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8D79C1BCF7CEA0005163D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8D7781BCF7BE80005163D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8D7831BCF7BE80005163D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B8D7591BCF7BE80005163D = {
+			isa = PBXGroup;
+			children = (
+				36B8D79B1BCF7CEA0005163D /* CoreGraphics.framework */,
+				36B8D7981BCF7C700005163D /* FlowerTransformView.h */,
+				36B8D7991BCF7C700005163D /* FlowerTransformView.m */,
+				36B8D7641BCF7BE80005163D /* ZYXFlowersTransformView */,
+				36B8D77E1BCF7BE80005163D /* ZYXFlowersTransformViewTests */,
+				36B8D7891BCF7BE80005163D /* ZYXFlowersTransformViewUITests */,
+				36B8D7631BCF7BE80005163D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36B8D7631BCF7BE80005163D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36B8D7621BCF7BE80005163D /* ZYXFlowersTransformView.app */,
+				36B8D77B1BCF7BE80005163D /* ZYXFlowersTransformViewTests.xctest */,
+				36B8D7861BCF7BE80005163D /* ZYXFlowersTransformViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36B8D7641BCF7BE80005163D /* ZYXFlowersTransformView */ = {
+			isa = PBXGroup;
+			children = (
+				36B8D7681BCF7BE80005163D /* AppDelegate.h */,
+				36B8D7691BCF7BE80005163D /* AppDelegate.m */,
+				36B8D76B1BCF7BE80005163D /* ViewController.h */,
+				36B8D76C1BCF7BE80005163D /* ViewController.m */,
+				36B8D76E1BCF7BE80005163D /* Main.storyboard */,
+				36B8D7711BCF7BE80005163D /* Assets.xcassets */,
+				36B8D7731BCF7BE80005163D /* LaunchScreen.storyboard */,
+				36B8D7761BCF7BE80005163D /* Info.plist */,
+				36B8D7651BCF7BE80005163D /* Supporting Files */,
+			);
+			path = ZYXFlowersTransformView;
+			sourceTree = "<group>";
+		};
+		36B8D7651BCF7BE80005163D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B8D7661BCF7BE80005163D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36B8D77E1BCF7BE80005163D /* ZYXFlowersTransformViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				36B8D77F1BCF7BE80005163D /* ZYXFlowersTransformViewTests.m */,
+				36B8D7811BCF7BE80005163D /* Info.plist */,
+			);
+			path = ZYXFlowersTransformViewTests;
+			sourceTree = "<group>";
+		};
+		36B8D7891BCF7BE80005163D /* ZYXFlowersTransformViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36B8D78A1BCF7BE80005163D /* ZYXFlowersTransformViewUITests.m */,
+				36B8D78C1BCF7BE80005163D /* Info.plist */,
+			);
+			path = ZYXFlowersTransformViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36B8D7611BCF7BE80005163D /* ZYXFlowersTransformView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8D78F1BCF7BE80005163D /* Build configuration list for PBXNativeTarget "ZYXFlowersTransformView" */;
+			buildPhases = (
+				36B8D75E1BCF7BE80005163D /* Sources */,
+				36B8D75F1BCF7BE80005163D /* Frameworks */,
+				36B8D7601BCF7BE80005163D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXFlowersTransformView;
+			productName = ZYXFlowersTransformView;
+			productReference = 36B8D7621BCF7BE80005163D /* ZYXFlowersTransformView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36B8D77A1BCF7BE80005163D /* ZYXFlowersTransformViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8D7921BCF7BE80005163D /* Build configuration list for PBXNativeTarget "ZYXFlowersTransformViewTests" */;
+			buildPhases = (
+				36B8D7771BCF7BE80005163D /* Sources */,
+				36B8D7781BCF7BE80005163D /* Frameworks */,
+				36B8D7791BCF7BE80005163D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36B8D77D1BCF7BE80005163D /* PBXTargetDependency */,
+			);
+			name = ZYXFlowersTransformViewTests;
+			productName = ZYXFlowersTransformViewTests;
+			productReference = 36B8D77B1BCF7BE80005163D /* ZYXFlowersTransformViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36B8D7851BCF7BE80005163D /* ZYXFlowersTransformViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8D7951BCF7BE80005163D /* Build configuration list for PBXNativeTarget "ZYXFlowersTransformViewUITests" */;
+			buildPhases = (
+				36B8D7821BCF7BE80005163D /* Sources */,
+				36B8D7831BCF7BE80005163D /* Frameworks */,
+				36B8D7841BCF7BE80005163D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36B8D7881BCF7BE80005163D /* PBXTargetDependency */,
+			);
+			name = ZYXFlowersTransformViewUITests;
+			productName = ZYXFlowersTransformViewUITests;
+			productReference = 36B8D7861BCF7BE80005163D /* ZYXFlowersTransformViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36B8D75A1BCF7BE80005163D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhuo;
+				TargetAttributes = {
+					36B8D7611BCF7BE80005163D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					36B8D77A1BCF7BE80005163D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 36B8D7611BCF7BE80005163D;
+					};
+					36B8D7851BCF7BE80005163D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 36B8D7611BCF7BE80005163D;
+					};
+				};
+			};
+			buildConfigurationList = 36B8D75D1BCF7BE80005163D /* Build configuration list for PBXProject "ZYXFlowersTransformView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36B8D7591BCF7BE80005163D;
+			productRefGroup = 36B8D7631BCF7BE80005163D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36B8D7611BCF7BE80005163D /* ZYXFlowersTransformView */,
+				36B8D77A1BCF7BE80005163D /* ZYXFlowersTransformViewTests */,
+				36B8D7851BCF7BE80005163D /* ZYXFlowersTransformViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36B8D7601BCF7BE80005163D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8D7751BCF7BE80005163D /* LaunchScreen.storyboard in Resources */,
+				36B8D7721BCF7BE80005163D /* Assets.xcassets in Resources */,
+				36B8D7701BCF7BE80005163D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8D7791BCF7BE80005163D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8D7841BCF7BE80005163D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36B8D75E1BCF7BE80005163D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8D76D1BCF7BE80005163D /* ViewController.m in Sources */,
+				36B8D76A1BCF7BE80005163D /* AppDelegate.m in Sources */,
+				36B8D79A1BCF7C700005163D /* FlowerTransformView.m in Sources */,
+				36B8D7671BCF7BE80005163D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8D7771BCF7BE80005163D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8D7801BCF7BE80005163D /* ZYXFlowersTransformViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8D7821BCF7BE80005163D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8D78B1BCF7BE80005163D /* ZYXFlowersTransformViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36B8D77D1BCF7BE80005163D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B8D7611BCF7BE80005163D /* ZYXFlowersTransformView */;
+			targetProxy = 36B8D77C1BCF7BE80005163D /* PBXContainerItemProxy */;
+		};
+		36B8D7881BCF7BE80005163D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B8D7611BCF7BE80005163D /* ZYXFlowersTransformView */;
+			targetProxy = 36B8D7871BCF7BE80005163D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36B8D76E1BCF7BE80005163D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36B8D76F1BCF7BE80005163D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36B8D7731BCF7BE80005163D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36B8D7741BCF7BE80005163D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36B8D78D1BCF7BE80005163D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36B8D78E1BCF7BE80005163D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36B8D7901BCF7BE80005163D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYXFlowersTransformView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXFlowersTransformView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36B8D7911BCF7BE80005163D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYXFlowersTransformView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXFlowersTransformView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36B8D7931BCF7BE80005163D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYXFlowersTransformViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXFlowersTransformViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYXFlowersTransformView.app/ZYXFlowersTransformView";
+			};
+			name = Debug;
+		};
+		36B8D7941BCF7BE80005163D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYXFlowersTransformViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXFlowersTransformViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYXFlowersTransformView.app/ZYXFlowersTransformView";
+			};
+			name = Release;
+		};
+		36B8D7961BCF7BE80005163D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYXFlowersTransformViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXFlowersTransformViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYXFlowersTransformView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36B8D7971BCF7BE80005163D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYXFlowersTransformViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.ZYXFlowersTransformViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYXFlowersTransformView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36B8D75D1BCF7BE80005163D /* Build configuration list for PBXProject "ZYXFlowersTransformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8D78D1BCF7BE80005163D /* Debug */,
+				36B8D78E1BCF7BE80005163D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B8D78F1BCF7BE80005163D /* Build configuration list for PBXNativeTarget "ZYXFlowersTransformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8D7901BCF7BE80005163D /* Debug */,
+				36B8D7911BCF7BE80005163D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36B8D7921BCF7BE80005163D /* Build configuration list for PBXNativeTarget "ZYXFlowersTransformViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8D7931BCF7BE80005163D /* Debug */,
+				36B8D7941BCF7BE80005163D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36B8D7951BCF7BE80005163D /* Build configuration list for PBXNativeTarget "ZYXFlowersTransformViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8D7961BCF7BE80005163D /* Debug */,
+				36B8D7971BCF7BE80005163D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36B8D75A1BCF7BE80005163D /* Project object */;
+}

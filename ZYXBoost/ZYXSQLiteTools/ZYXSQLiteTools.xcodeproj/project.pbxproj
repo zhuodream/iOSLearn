@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3639E8731BB3E36000D16A8A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3639E8721BB3E36000D16A8A /* main.mm */; };
+		3639E87B1BB3E3B300D16A8A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3639E87A1BB3E3B300D16A8A /* libsqlite3.tbd */; };
+		3639E87E1BB3E3EE00D16A8A /* ZYXSQLiteTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3639E87D1BB3E3EE00D16A8A /* ZYXSQLiteTools.mm */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3639E86D1BB3E35F00D16A8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3639E86F1BB3E35F00D16A8A /* ZYXSQLiteTools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZYXSQLiteTools; sourceTree = BUILT_PRODUCTS_DIR; };
+		3639E8721BB3E36000D16A8A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		3639E87A1BB3E3B300D16A8A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3639E87C1BB3E3EE00D16A8A /* ZYXSQLiteTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXSQLiteTools.h; sourceTree = "<group>"; };
+		3639E87D1BB3E3EE00D16A8A /* ZYXSQLiteTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZYXSQLiteTools.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3639E86C1BB3E35F00D16A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3639E87B1BB3E3B300D16A8A /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3639E8661BB3E35F00D16A8A = {
+			isa = PBXGroup;
+			children = (
+				3639E8711BB3E35F00D16A8A /* ZYXSQLiteTools */,
+				3639E8791BB3E38E00D16A8A /* Frameworks */,
+				3639E8701BB3E35F00D16A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3639E8701BB3E35F00D16A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3639E86F1BB3E35F00D16A8A /* ZYXSQLiteTools */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3639E8711BB3E35F00D16A8A /* ZYXSQLiteTools */ = {
+			isa = PBXGroup;
+			children = (
+				3639E8721BB3E36000D16A8A /* main.mm */,
+				3639E87C1BB3E3EE00D16A8A /* ZYXSQLiteTools.h */,
+				3639E87D1BB3E3EE00D16A8A /* ZYXSQLiteTools.mm */,
+			);
+			path = ZYXSQLiteTools;
+			sourceTree = "<group>";
+		};
+		3639E8791BB3E38E00D16A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3639E87A1BB3E3B300D16A8A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3639E86E1BB3E35F00D16A8A /* ZYXSQLiteTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3639E8761BB3E36000D16A8A /* Build configuration list for PBXNativeTarget "ZYXSQLiteTools" */;
+			buildPhases = (
+				3639E86B1BB3E35F00D16A8A /* Sources */,
+				3639E86C1BB3E35F00D16A8A /* Frameworks */,
+				3639E86D1BB3E35F00D16A8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXSQLiteTools;
+			productName = ZYXSQLiteTools;
+			productReference = 3639E86F1BB3E35F00D16A8A /* ZYXSQLiteTools */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3639E8671BB3E35F00D16A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhuo;
+				TargetAttributes = {
+					3639E86E1BB3E35F00D16A8A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3639E86A1BB3E35F00D16A8A /* Build configuration list for PBXProject "ZYXSQLiteTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3639E8661BB3E35F00D16A8A;
+			productRefGroup = 3639E8701BB3E35F00D16A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3639E86E1BB3E35F00D16A8A /* ZYXSQLiteTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3639E86B1BB3E35F00D16A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3639E8731BB3E36000D16A8A /* main.mm in Sources */,
+				3639E87E1BB3E3EE00D16A8A /* ZYXSQLiteTools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3639E8741BB3E36000D16A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3639E8751BB3E36000D16A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3639E8771BB3E36000D16A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3639E8781BB3E36000D16A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3639E86A1BB3E35F00D16A8A /* Build configuration list for PBXProject "ZYXSQLiteTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3639E8741BB3E36000D16A8A /* Debug */,
+				3639E8751BB3E36000D16A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3639E8761BB3E36000D16A8A /* Build configuration list for PBXNativeTarget "ZYXSQLiteTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3639E8771BB3E36000D16A8A /* Debug */,
+				3639E8781BB3E36000D16A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3639E8671BB3E35F00D16A8A /* Project object */;
+}

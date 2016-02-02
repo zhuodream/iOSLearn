@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4q-ZG-Xdg">
+                                <rect key="frame" x="0.0" y="515" width="69" height="30"/>
+                                <state key="normal" title="获取数据"/>
+                                <connections>
+                                    <action selector="loadData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6jC-Ks-hHt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJO-Qb-qEG">
+                                <rect key="frame" x="77" y="515" width="60" height="30"/>
+                                <state key="normal" title="下载文件"/>
+                                <connections>
+                                    <action selector="downloadFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ubg-Ch-Vgf"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7g0-oi-iY8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="450"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="MWs-eq-TLr">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyz-eD-c8a">
+                                <rect key="frame" x="153" y="515" width="60" height="30"/>
+                                <state key="normal" title="上传文件"/>
+                                <connections>
+                                    <action selector="uploadFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XMf-3u-ix8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7g0-oi-iY8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="B7e-i1-U9R"/>
+                            <constraint firstAttribute="trailing" secondItem="7g0-oi-iY8" secondAttribute="trailing" id="Ksm-kp-be7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7g0-oi-iY8" secondAttribute="bottom" constant="150" id="NS3-KV-P1J"/>
+                            <constraint firstItem="7g0-oi-iY8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YFq-4z-DVv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="spinner" destination="MWs-eq-TLr" id="I71-Vc-sTa"/>
+                        <outlet property="webView" destination="7g0-oi-iY8" id="Tz3-5r-9my"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="310" y="429"/>
+        </scene>
+    </scenes>
+</document>

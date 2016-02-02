@@ -1,0 +1,6 @@
+platform :ios
+target 'ZYXSDWebImage' do
+
+pod 'SDWebImage', '~> 3.7.3'
+
+end

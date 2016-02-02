@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ZYXViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KGs-NX-Ujd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <collectionViewLayout key="collectionViewLayout" id="5ZW-kE-sxT" customClass="ZYXCellCoverFlowLayout"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ZYXCell" id="fA4-3m-yl8" customClass="ZYXCollectionCell">
+                                        <rect key="frame" x="74" y="0.0" width="452" height="411"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="452" height="411"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pLi-os-IGX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="452" height="411"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="pLi-os-IGX" secondAttribute="bottom" id="4IC-tw-hmj"/>
+                                            <constraint firstItem="pLi-os-IGX" firstAttribute="top" secondItem="fA4-3m-yl8" secondAttribute="top" id="FH4-lA-bb1"/>
+                                            <constraint firstItem="pLi-os-IGX" firstAttribute="leading" secondItem="fA4-3m-yl8" secondAttribute="leading" id="s7z-Jt-UZg"/>
+                                            <constraint firstAttribute="trailing" secondItem="pLi-os-IGX" secondAttribute="trailing" id="xzt-jC-5NS"/>
+                                        </constraints>
+                                        <size key="customSize" width="452" height="411"/>
+                                        <connections>
+                                            <outlet property="photoView" destination="pLi-os-IGX" id="EkM-ib-gYX"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="vKj-br-0fq"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Scx-dC-E6k"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KGs-NX-Ujd" secondAttribute="bottom" id="5lo-XC-bDu"/>
+                            <constraint firstItem="KGs-NX-Ujd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NOp-9h-ZnQ"/>
+                            <constraint firstAttribute="trailing" secondItem="KGs-NX-Ujd" secondAttribute="trailing" id="PL6-T4-z8w"/>
+                            <constraint firstItem="KGs-NX-Ujd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qID-dc-TGs"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="collectionView" destination="KGs-NX-Ujd" id="ouH-HJ-tD9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="192"/>
+        </scene>
+    </scenes>
+</document>

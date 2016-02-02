@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369A41641BBAAF5C000A3786 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369A41631BBAAF5C000A3786 /* main.cpp */; };
+		36CCC1161BBBDA55006191EB /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCC1151BBBDA55006191EB /* libboost_system.a */; settings = {ASSET_TAGS = (); }; };
+		36CCC1181BBBDA5C006191EB /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CCC1171BBBDA5C006191EB /* libboost_thread.a */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		369A415E1BBAAF5C000A3786 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		369A41601BBAAF5C000A3786 /* ZYXBoostAsioClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZYXBoostAsioClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		369A41631BBAAF5C000A3786 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36CCC1151BBBDA55006191EB /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../boost/boost_1_59_0/stage/staticlib/libboost_system.a; sourceTree = "<group>"; };
+		36CCC1171BBBDA5C006191EB /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = ../../../boost/boost_1_59_0/stage/staticlib/libboost_thread.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369A415D1BBAAF5C000A3786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CCC1161BBBDA55006191EB /* libboost_system.a in Frameworks */,
+				36CCC1181BBBDA5C006191EB /* libboost_thread.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369A41571BBAAF5C000A3786 = {
+			isa = PBXGroup;
+			children = (
+				369A416A1BBAAF72000A3786 /* Frameworks */,
+				369A41621BBAAF5C000A3786 /* ZYXBoostAsio */,
+				369A41611BBAAF5C000A3786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369A41611BBAAF5C000A3786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369A41601BBAAF5C000A3786 /* ZYXBoostAsioClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369A41621BBAAF5C000A3786 /* ZYXBoostAsio */ = {
+			isa = PBXGroup;
+			children = (
+				369A41631BBAAF5C000A3786 /* main.cpp */,
+			);
+			path = ZYXBoostAsio;
+			sourceTree = "<group>";
+		};
+		369A416A1BBAAF72000A3786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CCC1151BBBDA55006191EB /* libboost_system.a */,
+				36CCC1171BBBDA5C006191EB /* libboost_thread.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369A415F1BBAAF5C000A3786 /* ZYXBoostAsioClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369A41671BBAAF5C000A3786 /* Build configuration list for PBXNativeTarget "ZYXBoostAsioClient" */;
+			buildPhases = (
+				369A415C1BBAAF5C000A3786 /* Sources */,
+				369A415D1BBAAF5C000A3786 /* Frameworks */,
+				369A415E1BBAAF5C000A3786 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXBoostAsioClient;
+			productName = ZYXBoostAsio;
+			productReference = 369A41601BBAAF5C000A3786 /* ZYXBoostAsioClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369A41581BBAAF5C000A3786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhuo;
+				TargetAttributes = {
+					369A415F1BBAAF5C000A3786 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 369A415B1BBAAF5C000A3786 /* Build configuration list for PBXProject "ZYXBoostAsioClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 369A41571BBAAF5C000A3786;
+			productRefGroup = 369A41611BBAAF5C000A3786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369A415F1BBAAF5C000A3786 /* ZYXBoostAsioClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369A415C1BBAAF5C000A3786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369A41641BBAAF5C000A3786 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		369A41651BBAAF5C000A3786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		369A41661BBAAF5C000A3786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		369A41681BBAAF5C000A3786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../boost/boost_1_59_0\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../boost/boost_1_59_0/stage/staticlib\"";
+				PRODUCT_NAME = ZYXBoostAsioClient;
+			};
+			name = Debug;
+		};
+		369A41691BBAAF5C000A3786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../boost/boost_1_59_0\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../boost/boost_1_59_0/stage/staticlib\"";
+				PRODUCT_NAME = ZYXBoostAsioClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369A415B1BBAAF5C000A3786 /* Build configuration list for PBXProject "ZYXBoostAsioClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369A41651BBAAF5C000A3786 /* Debug */,
+				369A41661BBAAF5C000A3786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369A41671BBAAF5C000A3786 /* Build configuration list for PBXNativeTarget "ZYXBoostAsioClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369A41681BBAAF5C000A3786 /* Debug */,
+				369A41691BBAAF5C000A3786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369A41581BBAAF5C000A3786 /* Project object */;
+}

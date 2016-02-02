@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ndk-C3-elw">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="309"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="309" id="da0-NF-ZSw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="下载进度:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mb-OW-Sj6">
+                                <rect key="frame" x="20" y="393" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiW-Q3-t8h">
+                                <rect key="frame" x="112" y="393" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Nfb-GA-CpV">
+                                <rect key="frame" x="0.0" y="540" width="596" height="2"/>
+                            </progressView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qZK-xI-A4T">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="普通下载" id="V3Q-K2-5qZ">
+                                        <connections>
+                                            <action selector="cancelableDownload:" destination="BYZ-38-t0r" id="nOU-HY-5nK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="14" style="plain" systemItem="fixedSpace" id="Nsl-3P-ehD"/>
+                                    <barButtonItem title="断点续传下载" id="qeI-uu-Bsv">
+                                        <connections>
+                                            <action selector="resumeableDownload:" destination="BYZ-38-t0r" id="78h-3P-ai5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="13" style="plain" systemItem="fixedSpace" id="DIg-15-cfX"/>
+                                    <barButtonItem title="后台下载" id="Sd5-04-rtM">
+                                        <connections>
+                                            <action selector="backgrounDownload:" destination="BYZ-38-t0r" id="KGs-Cg-yZD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="38" style="plain" systemItem="fixedSpace" id="uej-LD-Ltt"/>
+                                    <barButtonItem title="取消下载任务" id="NhI-K7-9Pq">
+                                        <connections>
+                                            <action selector="cancelDownloadTask:" destination="BYZ-38-t0r" id="WZx-Hj-YWj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qZK-xI-A4T" secondAttribute="bottom" id="TZx-wT-jh6"/>
+                            <constraint firstAttribute="trailing" secondItem="qZK-xI-A4T" secondAttribute="trailing" id="dCQ-0o-Z0I"/>
+                            <constraint firstItem="Ndk-C3-elw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jO2-fU-yUc"/>
+                            <constraint firstAttribute="trailing" secondItem="Ndk-C3-elw" secondAttribute="trailing" id="kef-jF-Xyw"/>
+                            <constraint firstItem="Ndk-C3-elw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="l6O-xA-4YH"/>
+                            <constraint firstItem="qZK-xI-A4T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yhL-nL-2ei"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundableDownload_barButtonItem" destination="Sd5-04-rtM" id="Kbl-HM-dYJ"/>
+                        <outlet property="cancelTask_barButtonItem" destination="NhI-K7-9Pq" id="hbn-eh-o8u"/>
+                        <outlet property="cancelableDownload_barButtonItem" destination="V3Q-K2-5qZ" id="sns-TQ-vtx"/>
+                        <outlet property="currentProgress_label" destination="NiW-Q3-t8h" id="HQu-Hu-gW3"/>
+                        <outlet property="downloadImageView" destination="Ndk-C3-elw" id="Rrb-G0-yDw"/>
+                        <outlet property="downloadingProgressView" destination="Nfb-GA-CpV" id="cY8-vp-faf"/>
+                        <outlet property="resumeableDownload_barButtonItem" destination="qeI-uu-Bsv" id="sv4-ab-fRz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="429"/>
+        </scene>
+    </scenes>
+</document>
