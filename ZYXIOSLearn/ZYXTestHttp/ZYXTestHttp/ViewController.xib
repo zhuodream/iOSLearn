@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="downloadprogressView" destination="l9D-ZD-dt3" id="Gv1-n6-ME7"/>
+                <outlet property="segmentedcontrol" destination="uXm-4m-l9u" id="I3c-Cn-QaB"/>
+                <outlet property="videotable" destination="iWx-FA-zfe" id="xtj-r7-eul"/>
+                <outlet property="view" destination="iN0-l3-epB" id="csx-m8-Vbb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="547"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ghc-5X-Vkj">
+                    <rect key="frame" x="0.0" y="0.0" width="335" height="44"/>
+                    <items>
+                        <navigationItem id="dd3-bB-HP5">
+                            <nil key="title"/>
+                            <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="uXm-4m-l9u">
+                                <rect key="frame" x="73" y="7" width="189" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Queued"/>
+                                    <segment title="Synchronous"/>
+                                </segments>
+                            </segmentedControl>
+                            <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="slF-is-4H2">
+                                <connections>
+                                    <action selector="refreshlist:" destination="-1" id="Kg9-kb-9eV"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iWx-FA-zfe">
+                    <rect key="frame" x="0.0" y="44" width="335" height="463"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Zsn-Rl-Kc7"/>
+                        <outlet property="delegate" destination="-1" id="jlv-1K-VuU"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9D-ZD-dt3" userLabel="DownloadView" customClass="DownloadProgressView">
+                    <rect key="frame" x="0.0" y="507" width="335" height="40"/>
+                    <subviews>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cJ1-0W-VDj">
+                            <rect key="frame" x="0.0" y="19" width="335" height="2"/>
+                        </progressView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="N0n-86-2SI"/>
+                        <constraint firstItem="cJ1-0W-VDj" firstAttribute="leading" secondItem="l9D-ZD-dt3" secondAttribute="leading" id="QbP-MJ-vTE"/>
+                        <constraint firstAttribute="trailing" secondItem="cJ1-0W-VDj" secondAttribute="trailing" id="ihP-i9-xWM"/>
+                        <constraint firstItem="cJ1-0W-VDj" firstAttribute="centerX" secondItem="l9D-ZD-dt3" secondAttribute="centerX" id="pIu-eo-eZq"/>
+                        <constraint firstItem="cJ1-0W-VDj" firstAttribute="centerY" secondItem="l9D-ZD-dt3" secondAttribute="centerY" id="ugx-jJ-Qg2"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="progress" destination="cJ1-0W-VDj" id="Ip8-lk-c8U"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iWx-FA-zfe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0M8-gx-ZLJ"/>
+                <constraint firstItem="l9D-ZD-dt3" firstAttribute="top" secondItem="iWx-FA-zfe" secondAttribute="bottom" id="1dr-ta-UCk"/>
+                <constraint firstAttribute="bottom" secondItem="l9D-ZD-dt3" secondAttribute="bottom" id="FXW-Gn-hW9"/>
+                <constraint firstItem="Ghc-5X-Vkj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HzV-kP-qne"/>
+                <constraint firstAttribute="trailing" secondItem="Ghc-5X-Vkj" secondAttribute="trailing" id="NBS-Nf-czq"/>
+                <constraint firstItem="iWx-FA-zfe" firstAttribute="top" secondItem="Ghc-5X-Vkj" secondAttribute="bottom" id="PTp-D0-Vn8"/>
+                <constraint firstItem="Ghc-5X-Vkj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SCT-5E-Mz6"/>
+                <constraint firstAttribute="trailing" secondItem="iWx-FA-zfe" secondAttribute="trailing" id="gZP-80-S7c"/>
+                <constraint firstAttribute="trailing" secondItem="l9D-ZD-dt3" secondAttribute="trailing" id="x4Z-sw-zBA"/>
+                <constraint firstItem="l9D-ZD-dt3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ySV-Gq-TSW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="21.5" y="375.5"/>
+        </view>
+    </objects>
+</document>

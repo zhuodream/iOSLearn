@@ -81,13 +81,22 @@
 //        NSString *name = self.name;
 //        NSLog(@"get second name = %@", name);
 //    });
-    NSLog(@"aaaaaaa");
-    dispatch_sync(dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSLog(@"bbbbbbb");
-        NSLog(@"thread === %@", [NSThread currentThread]);
-    });
-    NSLog(@"main thread = %@", [NSThread currentThread]);
-    NSLog(@"cccccccc");
+//    NSLog(@"aaaaaaa");
+//    dispatch_sync(dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//        NSLog(@"bbbbbbb");
+//        NSLog(@"thread === %@", [NSThread currentThread]);
+//    });
+//    NSLog(@"main thread = %@", [NSThread currentThread]);
+//    NSLog(@"cccccccc");
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSString *str = [formatter stringFromDate:[NSDate date]];
+    NSLog(@"NSString = %@", str);
+   // NSString *timeNow = @"2999-01-01 00:00:00.0";
+    if ([str compare:@"2999-01-01 00:00:00.0" options:NSDiacriticInsensitiveSearch] == NSOrderedAscending)
+    {
+        NSLog(@"true= =====");
+    }
 }
 
 - (NSString *)name

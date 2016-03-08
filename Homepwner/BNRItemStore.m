@@ -116,7 +116,7 @@
     item.orderingValue=order;
     
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
-    item.valueInDollars=[defaults integerForKey:BNRNextItemValuePrefsKey];
+    item.valueInDollars=(int)[defaults integerForKey:BNRNextItemValuePrefsKey];
     item.itemName=[defaults objectForKey:BNRNextItemNamePrefsKey];
     
     //查看UserDefaults中存储了哪些数据

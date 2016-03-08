@@ -43,7 +43,10 @@ int main(int argc, const char * argv[]) {
         
         id instanceofNewClass = [[newClass alloc] init];
         [instanceofNewClass performSelector:@selector(report)];
+        char * str = "@\"NSString\"";
+        objc_property_attribute_t type = {"T", str};
         
+        NSLog(@"type = %s,   %s", type.name, type.value);
     }
     return 0;
 }
