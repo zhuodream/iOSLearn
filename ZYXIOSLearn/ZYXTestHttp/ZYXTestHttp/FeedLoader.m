@@ -20,7 +20,6 @@ static NSOperationQueue *queue;
  **/
 - (NSArray *)getEntriesArray:(NSDictionary *)dictionary {
     NSArray *entries = [[[dictionary objectForKey:@"rss"] objectForKey:@"channel"] objectForKey:@"item"];
-    
     // insure that the method always returns an array
     if (![entries isKindOfClass:[NSArray class]]) {
         

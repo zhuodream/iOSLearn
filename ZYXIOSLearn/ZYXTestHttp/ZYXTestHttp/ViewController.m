@@ -21,7 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
     [self refreshlist:self];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showProgress:) name:kShowProgressView object:nil];
@@ -64,32 +63,20 @@
 - (void)showProgress:(NSNotification *)notification
 {
     [UIView animateWithDuration:0.2 animations:^{
-        CGFloat height = self.downloadprogressView.frame.size.height;
-        CGRect oldFrame = self.downloadprogressView.frame;
-        CGRect nf = CGRectMake(oldFrame.origin.x, oldFrame.origin.y - height, oldFrame.size.width, oldFrame.size.height);
-        self.downloadprogressView.frame = nf;
-        oldFrame = self.videotable.frame;
-        nf = CGRectMake(oldFrame.origin.x, oldFrame.origin.y, oldFrame.size.width, oldFrame.size.height - height);
-        self.videotable.frame = nf;
         self.downloadprogressView.hidden = NO;
+        self.downloadHeight.constant = 40;
+        self.downloadprogressView.progress.hidden = NO;
         [self.downloadprogressView layoutIfNeeded];
-        [self.videotable layoutIfNeeded];
     }];
 }
 
 - (void)hideProgress:(NSNotification *)notification
 {
     [UIView animateWithDuration:0.2 animations:^{
-        CGFloat height = self.downloadprogressView.frame.size.height;
-        CGRect oldFrame = self.downloadprogressView.frame;
-        CGRect nf = CGRectMake(oldFrame.origin.x, oldFrame.origin.y + height, oldFrame.size.width, oldFrame.size.height);
-        self.downloadprogressView.frame = nf;
-        oldFrame = self.videotable.frame;
-        nf = CGRectMake(oldFrame.origin.x, oldFrame.origin.y, oldFrame.size.width, oldFrame.size.height + height);
-        self.videotable.frame = nf;
-        self.downloadprogressView.hidden = YES;
+        self.downloadHeight.constant = 0;
         [self.downloadprogressView layoutIfNeeded];
-        [self.videotable layoutIfNeeded];
+        self.downloadprogressView.progress.hidden = YES;
+        self.downloadprogressView.hidden = YES;
     }];
 }
 

@@ -59,6 +59,7 @@ NSString *const kXMLReaderTextNodeKey = @"text";
     if (success)
     {
         NSDictionary *resultDic = [self.dictionaryStack objectAtIndex:0];
+        NSLog(@"resultarray ========== %ld", self.dictionaryStack.count);
         return resultDic;
     }
     
@@ -83,7 +84,7 @@ NSString *const kXMLReaderTextNodeKey = @"text";
         NSMutableArray *array = nil;
         if ([existingValue isKindOfClass:[NSMutableArray class]])
         {
-            array = (NSMutableArray *)array;
+            array = (NSMutableArray *)existingValue;
         }
         else
         {
@@ -120,6 +121,7 @@ NSString *const kXMLReaderTextNodeKey = @"text";
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
 {
+    NSLog(@"string ====== %@", string);
     [self.textInProgress appendString:string];
 }
 

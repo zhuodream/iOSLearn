@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
+                <outlet property="downloadHeight" destination="N0n-86-2SI" id="hhO-rt-IhM"/>
                 <outlet property="downloadprogressView" destination="l9D-ZD-dt3" id="Gv1-n6-ME7"/>
                 <outlet property="segmentedcontrol" destination="uXm-4m-l9u" id="I3c-Cn-QaB"/>
                 <outlet property="videotable" destination="iWx-FA-zfe" id="xtj-r7-eul"/>

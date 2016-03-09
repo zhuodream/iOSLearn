@@ -12,6 +12,7 @@
 @class MPMoviePlayerViewController;
 
 @interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *downloadHeight;
 
 @property (nonatomic, weak) IBOutlet UITableView *videotable;
 @property (nonatomic, weak) IBOutlet UISegmentedControl *segmentedcontrol;
